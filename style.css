@@ -12,9 +12,11 @@ body {
 #main {
   width: 100%;
   background-color: black;
+  overflow-x: hidden;
 }
+
 #nav {
-  padding: 0 2vw;
+  padding: 0 2rem;
   width: 100%;
   height: 70px;
   display: flex;
@@ -25,15 +27,15 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 0.8vw;
+  gap: 0.8rem;
 }
 #zillion img {
-  width: 2.5vw;
-  height: 2.5vw;
+  width: 2.5rem;
+  height: 2.5rem;
 }
 #zillion h3 {
   font-family: sans-serif;
-  font-size: 1.4vw;
+  font-size: 1.4rem;
   font-weight: 600;
 }
 #nav #links {
@@ -41,46 +43,46 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 2vw;
+  gap: 2rem;
 }
 #nav #links h4 {
   font-family: sans-serif;
-  font-size: 1vw;
+  font-size: 1rem;
   font-weight: 100;
 }
 #nav #links #yellow {
   color: #faff00;
 }
 #nav #links i {
-  font-size: 1.8vw;
+  font-size: 1.8rem;
   font-weight: 100;
 }
 #header {
-  padding: 4vw 0;
+  padding: 4rem 0;
   text-align: center;
 }
 #header h1 {
-  font-size: 4.5vw;
+  font-size: 4.5rem;
   font-family: "Ink Free";
   font-weight: 100;
 }
 #header h2 {
-  margin-top: 1vw;
-  font-size: 4vw;
+  margin-top: 1rem;
+  font-size: 3.5rem;
   font-family: "Ink Free";
   font-weight: 100;
   color: #faff00;
 }
 #header img {
   margin-top: 30px;
-  width: 40vw;
-  height: 50vw;
-  border-radius: 3vw;
+  width: 35rem;
+  height: 43rem;
+  border-radius: 3rem;
 }
 
 #paraghrap {
-  margin: 0 2vw;
-  padding: 0vw 23vw;
+  margin: 0 2rem;
+  padding: 0vw 23rem;
   font-family: "Poppins";
   width: 100%;
 }
@@ -90,20 +92,20 @@ body {
   font-weight: 100;
 }
 #para1 p {
-  margin-top: 1vw;
-  line-height: 2vw;
+  margin-top: 1rem;
+  line-height: 2rem;
 }
 
 #para2 {
-  padding-left: 2vw;
-  line-height: 2vw;
+  padding-left: 2rem;
+  line-height: 2rem;
 }
 span {
   color: #faff00;
 }
 #point {
-  margin-top: 0.7vw;
-  left: 25.5vw;
+  margin-top: 0.7rem;
+  left: 25.5rem;
   position: absolute;
   width: 5px;
   height: 5px;
@@ -112,30 +114,30 @@ span {
 }
 #para3 {
   margin-top: 10px;
-  line-height: 2vw;
+  line-height: 2rem;
 }
 
 #para4 {
-  padding-left: 2vw;
-  line-height: 2vw;
+  padding-left: 2rem;
+  line-height: 2rem;
 }
 
 #para5 {
   margin-top: 10px;
-  line-height: 2vw;
+  line-height: 2rem;
 }
 
 #footer-nav {
-  padding: 3vw 3vw;
-  margin-top: 10vw;
+  padding: 3rem 3rem;
+  margin-top: 10rem;
   width: 100%;
   height: 100px;
   display: flex;
   align-items: center;
-  gap: 2vw;
+  gap: 2rem;
 }
 #footer-nav i {
-  font-size: 2.5vw;
-  gap: 10vw;
+  font-size: 2.5rem;
+  gap: 10rem;
   cursor: pointer;
 }
